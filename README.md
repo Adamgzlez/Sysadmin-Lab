@@ -1,9 +1,9 @@
-# PROJECTNAME
+# Sysadmin Lab
 
 ## Objective
 [Brief Objective - Remove this afterwards]
 
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+The Sysadmin Lab is aimed to establish a new server to replace a malfunctioning Linux server. The primary focus was to check user permissions on sensitive files, create user accounts, create a user group and collaborative folder, using lynis to audit the new server, and to install chkrootkit to search for any potential rootkits that may have been installed. This hands-on experience was designed to deepen understanding of network security, creating and modifying a new server, and defensive strategies.
 
 ### Skills Learned
 [Bullet Points - Remove this afterwards]
