@@ -35,6 +35,13 @@ ls -l /etc/shadow
 ```
 ls -l /etc/gshadow
 ```
+```
+ls -l /etc/group
+```
+```
+ls -l /etc/passwd
+```
+
 3. Create New User Accounts
 4. Create New User Group and Collaboratived Folder\
 5. Installing and Using Lynis Audit
