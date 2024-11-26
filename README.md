@@ -19,13 +19,6 @@ The Sysadmin Lab is aimed to establish a new server to replace a malfunctioning 
 - Virtual box/Ubuntu VM.
 
 ## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
-
-Every screenshot should have some text explaining what the screenshot is about.
-
-Example below.
-
-*Ref 1: Network Diagram*
 
 1. Ensuring Permissions on Sensitive Files
 
