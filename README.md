@@ -71,7 +71,7 @@ sudo groupadd engineers
 ```
 sudo usermod -a -G engineers sam, sudo usermod -a -G engineers joe, sudo usermod -a -G engineers amy, sudo usermod -a -G engineers sara
 ```
-4a
+4a. Collaborative folder and changing ownership commands.
 ```
 sudo mkdir /home/engineers
 ```
