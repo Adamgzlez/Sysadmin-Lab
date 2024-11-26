@@ -22,9 +22,9 @@ The Sysadmin Lab is aimed to establish a new server to replace a malfunctioning 
 
 1. Ensuring Permissions on Sensitive Files
 
-Inpecting and analyzing permissions on files to allow read, write, and allow everyone read access
+Inspecting and analyzing permissions on files to allow read, write, and allow everyone read access
 
-Commands to inpect permissions
+Commands to inspect permissions
 ```
 ls -l /etc/shadow
 ```
@@ -41,6 +41,16 @@ ls -l /etc/passwd
 ```
 sudo chmod 600 /etc/shadow
 ```
+```
+sudo chmod 600 /etc/gshadow
+```
+```
+sudo chmod 644 /etc/group
+```
+```
+sudo chomod 644 /etc/passwd
+```
+
 
 4. Create New User Accounts
 5. Create New User Group and Collaboratived Folder\
