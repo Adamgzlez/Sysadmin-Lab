@@ -51,14 +51,16 @@ sudo chmod 644 /etc/group
 sudo chomod 644 /etc/passwd
 ```
 3. Create New User Accounts
+Commands adding new users and assigning admin to the sudo group.
 ```
 sudo useradd sam, sudo useradd joe, sudo useradd amy, sudo useradd sara, sudo useradd admin
 ```
-3a. Adding admin to the sudo group
+3a. Adding admin to the sudo group.
 ```
 sudo usermod -a -G sudo admin
 ```
 4. Create New User Group and Collaboratived Folder
+Commands adding a new group and adding users to it. Also creating a shared folder and changing ownership to that new group.
 ```
 sudo groupadd engineers
 ```
@@ -72,6 +74,7 @@ sudo mkdir /home/engineers
 sudo chown 0:1019 /home/engineers
 ```
 5. Installing and Using Lynis Audit
+Commands to install and run lynis on the system.
 ```
 sudo apt install lynis
 ```
@@ -79,6 +82,7 @@ sudo apt install lynis
 sudo lynis audit system
 ```
 6. Installing and Using Chrootkit
+Commands to install and run chrootkit expert mode on the system.
 ```
 sudo apt install chkrootkit
 ```
