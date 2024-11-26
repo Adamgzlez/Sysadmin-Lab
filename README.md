@@ -8,7 +8,7 @@ The Sysadmin Lab is aimed to establish a new server to replace a malfunctioning 
 
 - Create and assign users for services.
 - Auditing the services being ran on the server.
-- Analyzing permissions on sensitve files and changing permission if needed.
+- Analyzing permissions on sensitive files and changing permission if needed.
 - Making group folders and assigning users
 
 ### Tools Used
@@ -26,3 +26,5 @@ Every screenshot should have some text explaining what the screenshot is about.
 Example below.
 
 *Ref 1: Network Diagram*
+
+1. Ensuring permissions on sensitive files
