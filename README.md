@@ -1,25 +1,22 @@
 # Sysadmin Lab
 
 ## Objective
-[Brief Objective - Remove this afterwards]
 
 The Sysadmin Lab is aimed to establish a new server to replace a malfunctioning Linux server. The primary focus was to check user permissions on sensitive files, create user accounts, create a user group and collaborative folder, using lynis to audit the new server, and install chkrootkit to search for any potential rootkits that may have been installed. This hands-on experience was designed to deepen understanding of network security, creating and modifying a new server, and defensive strategies.
 
 ### Skills Learned
-[Bullet Points - Remove this afterwards]
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
+- Create and assign users for services.
+- Auditing the services being ran on the server.
+- Analyzing permissions on sensitve files and changing permission if needed.
+- Making group folders and assigning users
 
 ### Tools Used
-[Bullet Points - Remove this afterwards]
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+- Local virtual machine.
+- Lynis package.
+- chkrootkit package.
+- Virtual box/Ubuntu VM.
 
 ## Steps
 drag & drop screenshots here or use imgur and reference them using imgsrc
