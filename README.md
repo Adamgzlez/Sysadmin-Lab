@@ -39,7 +39,7 @@ ls -l /etc/passwd
 ```
 2. Setting Permissions on Sensitive Files
 
-This permission 600 allows root read and write acess only. 644 allows root read and write access and everyone read acess.
+This permission 600 allows root read and write access only. 644 allows root read and write access and everyone read access.
 ```
 sudo chmod 600 /etc/shadow
 ```
