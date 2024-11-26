@@ -29,7 +29,11 @@ Example below.
 
 1. Ensuring Permissions on Sensitive Files
 Commands to inpect permissions
-ls-
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
 
 3. Create New User Accounts
 4. Create New User Group and Collaboratived Folder\
