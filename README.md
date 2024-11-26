@@ -37,8 +37,12 @@ ls -l /etc/group
 ```
 ls -l /etc/passwd
 ```
+2. Setting Permissions on Sensitive Files
+```
+sudo chmod 600 /etc/shadow
+```
 
-3. Create New User Accounts
-4. Create New User Group and Collaboratived Folder\
-5. Installing and Using Lynis Audit
-6. Installing and Using Chrootkit
+4. Create New User Accounts
+5. Create New User Group and Collaboratived Folder\
+6. Installing and Using Lynis Audit
+7. Installing and Using Chrootkit
