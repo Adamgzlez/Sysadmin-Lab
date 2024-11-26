@@ -28,6 +28,7 @@ Example below.
 *Ref 1: Network Diagram*
 
 1. Ensuring Permissions on Sensitive Files
+
 Inpecting and analyzing permissions on files to allow read, write, and allow everyone read access
 
 Commands to inpect permissions
