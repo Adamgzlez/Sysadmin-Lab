@@ -30,10 +30,11 @@ Example below.
 1. Ensuring Permissions on Sensitive Files
 Commands to inpect permissions
 ```
-ls- -l /etc/shadow
-
+ls -l /etc/shadow
 ```
-
+```
+ls -l /etc/gshadow
+```
 3. Create New User Accounts
 4. Create New User Group and Collaboratived Folder\
 5. Installing and Using Lynis Audit
