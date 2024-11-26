@@ -30,9 +30,8 @@ Example below.
 1. Ensuring Permissions on Sensitive Files
 Commands to inpect permissions
 ```
-function test() {
-  console.log("notice the blank line before this function?");
-}
+ls- -l /etc/shadow
+
 ```
 
 3. Create New User Accounts
