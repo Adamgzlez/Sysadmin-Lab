@@ -27,4 +27,11 @@ Example below.
 
 *Ref 1: Network Diagram*
 
-1. Ensuring permissions on sensitive files
+1. Ensuring Permissions on Sensitive Files
+Commands to inpect permissions
+
+
+3. Create New User Accounts
+4. Create New User Group and Collaboratived Folder\
+5. Installing and Using Lynis Audit
+6. Installing and Using Chrootkit
