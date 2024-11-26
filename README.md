@@ -50,9 +50,38 @@ sudo chmod 644 /etc/group
 ```
 sudo chomod 644 /etc/passwd
 ```
-
-
-4. Create New User Accounts
-5. Create New User Group and Collaboratived Folder\
-6. Installing and Using Lynis Audit
-7. Installing and Using Chrootkit
+3. Create New User Accounts
+```
+sudo useradd sam, sudo useradd joe, sudo useradd amy, sudo useradd sara, sudo useradd admin
+```
+3a. Adding admin to the sudo group
+```
+sudo usermod -a -G sudo admin
+```
+4. Create New User Group and Collaboratived Folder
+```
+sudo groupadd engineers
+```
+```
+sudo usermod -a -G engineers sam, sudo usermod -a -G engineers joe, sudo usermod -a -G engineers amy, sudo usermod -a -G engineers sara
+```
+```
+sudo mkdir /home/engineers
+```
+```
+sudo chown 0:1019 /home/engineers
+```
+5. Installing and Using Lynis Audit
+```
+sudo apt install lynis
+```
+```
+sudo lynis audit system
+```
+6. Installing and Using Chrootkit
+```
+sudo apt install chkrootkit
+```
+```
+sudo chkrootkit -x
+```
