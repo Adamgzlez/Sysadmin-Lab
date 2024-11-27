@@ -1,4 +1,4 @@
-# Sysadmin Lab
+# SYSADMIN LAB
 
 ## Objective
 
